@@ -1,1 +1,13 @@
+//unarmed
+weapons[0] =ds_map_create();
+ds_map_add(weapons[0],"sprite",spr_player);
+ds_map_add(weapons[0],"weapAtk",0);
+//Combat Knife
+weapons[1]=ds_map_create();
+ds_map_add(weapons[1],"sprite",spr_player_weapon);
+ds_map_add(weapons[1],"weapAtk",5);
 
+weapon = 0
+var wp_map = weapons[weapon]
+sprite = wp_map[? "sprite"]
+sprite = wp_map[? "weapAtk"]
