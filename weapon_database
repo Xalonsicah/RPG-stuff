@@ -1,39 +1,50 @@
 //unarmed
 weapons[0] =ds_map_create();
+ds_map_add(weapons[0],"name","---------")
 ds_map_add(weapons[0],"weapAtk",0);
 //Combat Knife
 weapons[1]=ds_map_create();
+ds_map_add(weapons[0],"name","Combat Knife")
 ds_map_add(weapons[1],"weapAtk",5);
 //Shortsword
 weapons[2]=ds_map_create();
+ds_map_add(weapons[0],"name","Shortsword")
 ds_map_add(weapons[2],"weapAtk",7);
 //Longsword
 weapons[3]=ds_map_create();
+ds_map_add(weapons[0],"name","Longsword")
 ds_map_add(weapons[3],"weapAtk",10);
 //Claymore
 weapons[4]=ds_map_create();
+ds_map_add(weapons[0],"name","Claymore")
 ds_map_add(weapons[4],"weapAtk",15);
 //Caladbolg
 weapons[5]=ds_map_create();
+ds_map_add(weapons[0],"name","Caladbolg")
 ds_map_add(weapons[5],"weapAtk",20);
 //Hauteclaire
 weapons[6]=ds_map_create();
+ds_map_add(weapons[0],"name","Hauteclaire")
 ds_map_add(weapons[6],"weapAtk",25);
 //Excalibur
 weapons[7]=ds_map_create();
+ds_map_add(weapons[0],"name","Excalibur")
 ds_map_add(weapons[7],"weapAtk",30);
 //Claimh Solais
 weapons[8]=ds_map_create();
+ds_map_add(weapons[0],"name","Claimh Solais")
 ds_map_add(weapons[8],"weapAtk",35);
 //Theum Sword
 weapons[9]=ds_map_create();
+ds_map_add(weapons[0],"name","Theum Sword")
 ds_map_add(weapons[9],"weapAtk",40);
 //Deadmetal Sword
 weapons[10]=ds_map_create();
+ds_map_add(weapons[0],"name","Deadmetal Sword")
 ds_map_add(weapons[10],"weapAtk",45);
 
 
 weapon = 0
 var wp_map = weapons[weapon]
-sprite_index = wp_map[? "sprite"]
-sprite = wp_map[? "weapAtk"]
+
+weapAtk = wp_map[? "weapAtk"]
