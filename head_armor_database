@@ -1,0 +1,42 @@
+//No Armor
+armorH[0] =ds_map_create();
+ds_map_add(armorH[0],"name","---------")
+ds_map_add(weapons[0],"armDef",0);
+//Threaded Fiber Hat
+armorH[1] =ds_map_create();
+ds_map_add(armorH[1],"name","Threaded Fiber Hat")
+ds_map_add(armorH[1],"armDef",1);
+//Leather Helm
+armorH[2] =ds_map_create();
+ds_map_add(armorH[2],"name","Leather Helm")
+ds_map_add(armorH[2],"armDef",2);
+//Bronze Helm
+armorH[3] =ds_map_create();
+ds_map_add(armorH[3],"name","Bronze Helm")
+ds_map_add(armorH[3],"armDef",5);
+//Iron Helm
+armorH[4] =ds_map_create();
+ds_map_add(armorH[4],"name","Iron Helm")
+ds_map_add(armorH[4],"armDef",7);
+//Steel Helm
+armorH[5] =ds_map_create();
+ds_map_add(armorH[5],"name","Steel Helm")
+ds_map_add(armorH[5],"armDef",10);
+//Goswhit
+armorH[6] =ds_map_create();
+ds_map_add(armorH[6],"name","Goswhit")
+ds_map_add(armorH[6],"armDef",12);
+//Theum Helmet
+armorH[7] =ds_map_create();
+ds_map_add(armorH[7],"name","Theum Helm")
+ds_map_add(armorH[7],"armDef",15);
+//Deadmetal Helmet
+armorH[8] =ds_map_
+ds_map_add(armorH[8],"name","Deadmetal Helm")
+ds_map_add(armorH[8],"armDef",17);
+
+
+
+head = 0
+var wp_map = armorH[head]
+armDef = wp_map[? "armDef"]
